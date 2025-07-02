@@ -301,7 +301,7 @@ def main():
                     color='mean',
                     color_continuous_scale='RdYlGn'
                 )
-                fig_category.update_xaxis(tickangle=45)
+                fig_category.update_layout(xaxis_tickangle=45)
                 st.plotly_chart(fig_category, use_container_width=True)
                 
                 # Price vs Rating
