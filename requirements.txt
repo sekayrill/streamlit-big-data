@@ -1,0 +1,8 @@
+# Buat virtual environment (opsional tapi direkomendasikan)
+python -m venv streamlit_env
+source streamlit_env/bin/activate  # Linux/Mac
+# atau
+streamlit_env\Scripts\activate  # Windows
+
+# Install dependensi
+pip install -r requirements.txt
